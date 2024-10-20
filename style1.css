@@ -1,0 +1,79 @@
+body {
+    background-color: #f7f9fc;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: rgb(66, 60, 60);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    vertical-align: middle;
+    padding: 15px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #f2f5fa;
+}
+
+input.form-control, select.form-select, textarea.form-control {
+    border-radius: 5px;
+    border: 1px solid #b0d1f1;
+}
+
+.signature-container h4 {
+    color: #007bff;
+}
+
+.signature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+.form-check-input {
+    accent-color: #007bff;
+}
+
+/* Interações com hover */
+td input.form-control:hover, td select.form-select:hover, textarea.form-control:hover {
+    border-color: #007bff;
+}
+
+table td:hover {
+    background-color: #e9f5ff;
+}
+
+td canvas {
+    margin-top: 10px;
+    background-color: white;
+}
